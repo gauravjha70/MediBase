@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:layout_marginHorizontal="40dp"
+        android:text="Add Medicine"
+        android:layout_marginTop="30dp"
+        android:id="@+id/adder"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:layout_marginHorizontal="40dp"
+        android:text="Search Medicine"
+        android:layout_below="@id/adder"
+        android:layout_marginTop="10dp"
+        android:id="@+id/searcher"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:layout_marginHorizontal="40dp"
+        android:text="Add Disease Medicine"
+        android:layout_below="@id/searcher"
+        android:layout_marginTop="10dp"
+        android:id="@+id/add_disease_med"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:layout_marginHorizontal="40dp"
+        android:layout_below="@id/add_disease_med"
+        android:layout_marginTop="10dp"
+        android:text="Search Disease Medicine"
+        android:id="@+id/searchMed"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:layout_marginHorizontal="40dp"
+        android:layout_below="@id/searchMed"
+        android:layout_marginTop="10dp"
+        android:text="Add Symptoms"
+        android:id="@+id/add_symptom"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:layout_marginHorizontal="40dp"
+        android:layout_below="@id/add_symptom"
+        android:layout_marginTop="10dp"
+        android:text="Search by Symptoms"
+        android:id="@+id/search_symptom"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:layout_marginHorizontal="40dp"
+        android:layout_below="@id/search_symptom"
+        android:layout_marginTop="10dp"
+        android:text="Delete Medicine"
+        android:id="@+id/delete_medicine"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:layout_marginHorizontal="40dp"
+        android:layout_below="@id/delete_medicine"
+        android:layout_marginTop="10dp"
+        android:text="Delete Disease"
+        android:id="@+id/delete_disease"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:layout_marginHorizontal="40dp"
+        android:layout_below="@id/delete_disease"
+        android:layout_marginTop="10dp"
+        android:text="Update Disease Discription"
+        android:id="@+id/update_disease"
+        />
+
+
+
+</RelativeLayout>

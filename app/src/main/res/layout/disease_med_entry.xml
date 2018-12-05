@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Disease to the database"
+        android:textColor=" #2ac9d6 "
+        android:id="@+id/header"
+        android:textSize="30dp"
+        android:layout_margin="30dp"/>
+
+    <EditText
+        android:background="@drawable/edit_bg"
+        android:paddingHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:id="@+id/diseaseName"
+        android:layout_below="@id/header"
+        android:textColor="#fff"
+        android:textColorHint=" #687ba7 "
+        android:layout_margin="20dp"
+        android:layout_height="40dp"
+        android:hint="Disease"/>
+
+    <EditText
+        android:background="@drawable/edit_bg"
+        android:paddingHorizontal="20dp"
+        android:id="@+id/disease_discription"
+        android:textColor="#fff"
+        android:textColorHint=" #687ba7 "
+        android:layout_below="@id/diseaseName"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_height="40dp"
+        android:hint="Discription"/>
+
+    <EditText
+        android:background="@drawable/edit_bg"
+        android:paddingHorizontal="20dp"
+        android:id="@+id/MedicineName"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:textColorHint=" #687ba7 "
+        android:layout_below="@id/disease_discription"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_height="40dp"
+        android:hint="Medicine"/>
+
+    <EditText
+        android:background="@drawable/edit_bg"
+        android:paddingHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:textColorHint=" #687ba7 "
+        android:layout_height="40dp"
+        android:layout_below="@id/MedicineName"
+        android:id="@+id/MedicineType"
+        android:hint="Medicine Type"/>
+
+    <EditText
+        android:background="@drawable/edit_bg"
+        android:paddingHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:textColorHint=" #687ba7 "
+        android:layout_below="@id/MedicineType"
+        android:id="@+id/Price"
+        android:hint="Price"/>
+
+    <Button
+        android:background="@drawable/button_bg"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20sp"
+        android:id="@+id/submit_button"
+        android:layout_below="@id/Price"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

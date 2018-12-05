@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardBackgroundColor=" #6c3d0c "
+    android:layout_margin="10dp"
+    card_view:cardCornerRadius="15dp"
+    card_view:cardElevation="10dp">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/disease_name"
+            android:textColor=" #f0e04a "
+            android:text="Disease"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Symptoms"
+            android:text="Symptoms"
+            android:textColor=" #2cb754 "
+            android:layout_below="@id/disease_name"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/discription"
+            android:text="Discription"
+            android:layout_marginTop="5dp"
+            android:textColor=" #f5b65f "
+            android:layout_below="@id/Symptoms"
+            />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

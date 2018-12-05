@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "671193924027",
+    "firebase_url": "https://medibase-28e7d.firebaseio.com",
+    "project_id": "medibase-28e7d",
+    "storage_bucket": "medibase-28e7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671193924027:android:c1249a054bdcfd87",
+        "android_client_info": {
+          "package_name": "android.gaurav.com.medibase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671193924027-af5hb74uv2vv04d1j8vet139kss256vj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.gaurav.com.medibase",
+            "certificate_hash": "653d0ddbe1fbb48f22a8b56e5546621210a2d833"
+          }
+        },
+        {
+          "client_id": "671193924027-95pv1sf0l7gvulhnb3f8nos6bid52e9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ_YCgGraw6ita8vjnTkcYJecYgv743l4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671193924027-95pv1sf0l7gvulhnb3f8nos6bid52e9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

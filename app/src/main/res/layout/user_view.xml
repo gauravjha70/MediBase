@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:layout_marginHorizontal="40dp"
+        android:text="Search Medicine"
+        android:layout_marginTop="200dp"
+        android:id="@+id/searcher"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:layout_marginHorizontal="40dp"
+        android:layout_below="@id/searcher"
+        android:layout_marginTop="10dp"
+        android:text="Search Disease Medicine"
+        android:id="@+id/searchMed"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:layout_marginHorizontal="40dp"
+        android:layout_below="@id/searchMed"
+        android:layout_marginTop="10dp"
+        android:text="Search by Symptoms"
+        android:id="@+id/search_symptom"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Symptoms"
+        android:textColor=" #2ac9d6 "
+        android:id="@+id/header"
+        android:textSize="30dp"
+        android:layout_margin="30dp"/>
+
+    <EditText
+        android:background="@drawable/edit_bg"
+        android:paddingHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:textColor="#fff"
+        android:textColorHint=" #687ba7 "
+        android:layout_below="@id/header"
+        android:id="@+id/Disease"
+        android:hint="Disease"/>
+
+    <EditText
+        android:background="@drawable/edit_bg"
+        android:paddingHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:textColor="#fff"
+        android:textColorHint=" #687ba7 "
+        android:layout_below="@id/Disease"
+        android:id="@+id/disease_discription"
+        android:hint="Discription"/>
+
+    <EditText
+        android:background="@drawable/edit_bg"
+        android:paddingHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:textColor="#fff"
+        android:textColorHint=" #687ba7 "
+        android:layout_below="@id/disease_discription"
+        android:id="@+id/Symptoms"
+        android:hint="Symptom"/>
+
+    <Button
+        android:background="@drawable/button_bg"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20sp"
+        android:id="@+id/submit_button"
+        android:layout_below="@id/Symptoms"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submit_button"
+        android:text="* To enter more symptoms just delete the symptom feild and add again."
+        android:textColor=" #2db0de "
+        android:layout_margin="30dp"/>
+
+</RelativeLayout>
